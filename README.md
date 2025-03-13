@@ -49,6 +49,8 @@ To run this project locally, follow these steps:
 4. Use the `C` button to clear the last input and the `AC` button to clear the entire input.
 5. Use the `Ans` button to use the result of the previous calculation.
 
+Alternatively, you can use the calculator online by visiting [this link](https://princy262.github.io/Calculator/).
+
 ## How It Works
 
 The calculator application operates by attaching event listeners to each button. When a button is clicked, the corresponding value is appended to the display. The `eval()` function is used to compute the result of the arithmetic expression when the `=` button is pressed.
