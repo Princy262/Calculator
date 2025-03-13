@@ -55,4 +55,3 @@ The calculator application operates by attaching event listeners to each button.
 ## Security Considerations
 
 The use of the `eval()` function can pose security risks if not handled correctly, as it can execute arbitrary code. This calculator is intended for educational purposes and should not be used in production environments without proper input validation and sanitization.
-
