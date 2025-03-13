@@ -12,6 +12,7 @@ This project is a simple yet functional calculator web application developed usi
 - [Security Considerations](#security-considerations)
 - [License](#license)
 
+
 ## Features
 
 - Perform basic arithmetic operations: addition, subtraction, multiplication, and division.
