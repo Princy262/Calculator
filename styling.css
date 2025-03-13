@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+}
+
+body{
+    height:100vh;
+    width:100%;
+
+    background-color:  rgb(139, 133, 133); 
+
+    overflow: hidden;
+    
+}
+
+h1{
+    text-align: center;
+    height: 12vh;
+
+    color: rgb(246, 240, 239);
+    font-size:75px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-shadow: 5px 4px 2px rgb(0, 0, 0);
+
+    margin-bottom: 50px;
+}
+
+
+#calculator{
+
+    border : 1.5px solid rgba(156, 168, 206, 0.4);
+    border-radius: 5%;
+    box-shadow: -2px -1px 2.9px 2.5px rgb(0, 0, 0, 0.7);
+
+    padding: 30px 10px 10px 10px;
+    margin: auto;
+    
+
+    height:470px;
+    width:290px;
+    
+    background: linear-gradient(to bottom, rgb(36, 34, 34), rgb(48, 47, 47), rgb(58, 57, 57), rgb(73, 71, 71), rgb(81, 78, 78), rgb(90, 88, 88));
+}
+
+input{
+    height: 95px;
+    width:95%;
+
+    text-align:end;
+    font-size: 45px;
+    color: rgb(239, 216, 216);
+
+    padding: 4px;
+    border-radius: 10px;
+    border:1.5px solid rgba(63, 62, 62,0.5);
+    
+    background-color: rgba(82, 82, 82, 0.3);
+}
+
+.icons{
+    display:grid;
+    grid-template-columns: repeat(4,66px) ;
+    grid-template-rows: repeat(5, 70px);
+
+    margin-top:10px;
+    justify-content:space-evenly;
+}
+
+.buttons{
+    font-size: 20px;
+    font-family: math;
+
+    border-radius: 50%;
+    padding:12px;
+    margin:8px;
+
+    box-shadow: -4px 2px 3.9px 0.5px black;
+}
+
+@media(max-width:600px){
+
+    h1{
+        display: none;
+    }
+
+    #calculator{
+
+        width: 80vw;
+        height: 80%;
+        
+
+        margin-top: 12%;
+    }
+
+    .icons{
+        margin-top: 2rem;
+        gap: 4.5;
+    }
+
+    .buttons{
+        font-size: 18px;
+        padding: 9px;
+
+    }
+}
