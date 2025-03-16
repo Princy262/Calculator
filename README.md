@@ -10,7 +10,6 @@ This project is a simple yet functional calculator web application developed usi
 - [Usage](#usage)
 - [How It Works](#how-it-works)
 - [Security Considerations](#security-considerations)
-- [License](#license)
 
 
 ## Features
